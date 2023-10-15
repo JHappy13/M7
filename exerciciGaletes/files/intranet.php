@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intranet</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="row">
+        <div class="col"><?php include "top.php"?></div>
+    </div>
+    <div class="row">
+        <div class="col-2"><?php include "menu.php"?></div>
+        <div class="col-4"><?php include "content.php"?></div>
+    </div>
+    <div class="row">
+        <div class="col"><?php include "bottom.php" ?></div>
+    </div>
+</body>
+</html>
